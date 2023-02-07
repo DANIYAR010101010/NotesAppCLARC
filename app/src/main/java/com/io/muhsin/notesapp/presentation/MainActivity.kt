@@ -1,4 +1,4 @@
-package com.io.muhsin.notesapp
+package com.io.muhsin.notesapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.io.muhsin.notesapp.ui.theme.NotesAppTheme
+import com.io.muhsin.notesapp.presentation.ui.theme.NotesAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
